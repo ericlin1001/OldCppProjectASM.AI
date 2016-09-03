@@ -1,0 +1,64 @@
+double toMeWeight[23]={
+		INFINITE*3+3,	//0 //win 5
+		INFINITE*3,	//1  //win 5
+		INFINITE/10+10,		//2//living 4
+		INFINITE/10+8,		//3//to 4
+		INFINITE/10+6,		//4//to 4
+
+		INFINITE/10+4,		//5//to 4
+		INFINITE/10+2,		//6//to 4
+
+		INFINITE/100+3,		//7//living 3
+		INFINITE/100,		//8//living jump 3
+
+		4,		//9 010101
+
+		4-0.2,		//10 210101
+		5,		//11 //sleep 3
+		5-0.1,		//12	//sleep jump 3
+		5-0.2,		//13//sleep big jump 3
+		5-0.1,		//14//sleep jump 3
+
+		5-0.2,		//15//sleep jump 3
+		4,		//16//living 2
+		4,		//17//living 2
+		4-0.2,		//18//living jump 2
+		4-0.8,		//19living big jump 2
+
+		1,		////sleep 2
+		1-0.08,		////sleep jump 2
+		1-0.16		////sleep big jump 2
+	};
+	//							0		
+	double toOtherWegiht[23]={
+		INFINITE*3+3,	//0
+		INFINITE*3,	//1
+		INFINITE/10,	//2
+
+		15,		//3 //to 4
+		13,		//4//to 4
+
+		10,		//5//to 4
+		10,		//6//to 4
+
+		9,		//7//living 3
+		7,		//8//living jump 3
+
+		4,		//9 010101
+
+		4-0.2,		//10 210101
+		5,		//11 //sleep 3
+		5-0.1,		//12	//sleep jump 3
+		5-0.2,		//13//sleep big jump 3
+		5-0.1,		//14//sleep jump 3
+
+		5-0.2,		//15//sleep jump 3
+		4,		//16//living 2
+		4,		//17//living 2
+		4-0.2,		//18//living jump 2
+		4-0.8,		//19living big jump 2
+
+		1,		////sleep 2
+		1-0.08,		////sleep jump 2
+		1-0.16		////sleep big jump 2
+	};

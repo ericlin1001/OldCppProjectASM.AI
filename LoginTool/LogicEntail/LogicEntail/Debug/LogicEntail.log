@@ -1,0 +1,49 @@
+﻿Build started 2012/4/27 0:15:10.
+     1>Project "E:\C ++\C++Projects\AI\LoginTool\LogicEntail\LogicEntail\LogicEntail.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\LogicEntail.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\LogicEntail.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt LogicEntail.cpp Phaser.cpp
+         LogicEntail.cpp
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\logicentail.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
+         Phaser.cpp
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(30): warning C4482: nonstandard extension used: enum 'Phaser::TOKEN_TYPE' used in qualified name
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(38): warning C4482: nonstandard extension used: enum 'Phaser::TOKEN_TYPE' used in qualified name
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(42): warning C4482: nonstandard extension used: enum 'Phaser::TOKEN_TYPE' used in qualified name
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(52): warning C4482: nonstandard extension used: enum 'Phaser::TOKEN_TYPE' used in qualified name
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(53): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(56): warning C4482: nonstandard extension used: enum 'Phaser::TOKEN_TYPE' used in qualified name
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(60): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(67): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(80): warning C4482: nonstandard extension used: enum 'Phaser::TOKEN_TYPE' used in qualified name
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(84): warning C4482: nonstandard extension used: enum 'Phaser::TOKEN_TYPE' used in qualified name
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(87): warning C4482: nonstandard extension used: enum 'Phaser::TOKEN_TYPE' used in qualified name
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(92): warning C4482: nonstandard extension used: enum 'Phaser::TOKEN_TYPE' used in qualified name
+     1>e:\c ++\c++projects\ai\logintool\logicentail\logicentail\phaser.cpp(100): warning C4482: nonstandard extension used: enum 'Phaser::TOKEN_TYPE' used in qualified name
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C ++\C++Projects\AI\LoginTool\LogicEntail\Debug\LogicEntail.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LogicEntail.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\C ++\C++Projects\AI\LoginTool\LogicEntail\Debug\LogicEntail.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\C ++\C++Projects\AI\LoginTool\LogicEntail\Debug\LogicEntail.lib" /MACHINE:X86 Debug\LogicEntail.exe.embed.manifest.res
+         Debug\LogicEntail.obj
+         Debug\Phaser.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\LogicEntail.exe.embed.manifest" /manifest Debug\LogicEntail.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         LogicEntail.vcxproj -> E:\C ++\C++Projects\AI\LoginTool\LogicEntail\Debug\LogicEntail.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\LogicEntail.unsuccessfulbuild".
+         Touching "Debug\LogicEntail.lastbuildstate".
+     1>Done Building Project "E:\C ++\C++Projects\AI\LoginTool\LogicEntail\LogicEntail\LogicEntail.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.52
